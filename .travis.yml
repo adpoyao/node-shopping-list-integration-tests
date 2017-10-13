@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-deploy:app: desolate-refuge-47177
+deploy:
   provider: heroku
   api_key:
     secure: CKFSOb0lk8Ih0NuBwzAhwLwsC3T6Sj4MJXfYNjzdQLJPzpj0euLCeOL5gcRmHnvrbmCyMcMma11ilKk6b/2kQb3ZWYVLK80eZ+EvSdBXbgbjF2m8iu6BQ7mgVKQD4zDrxZteGDiG3/OcdNf41NkuolCVDigKqJTihuwkKCq+oNtxzK3+mI6tbgG/AkPmBTZ1qp24l2I3j5Ncay5WYJMM6Q2+NffQGCcmjpFsodFsEzVDLZMONznRsSqM5oyT4iUTvPk37dZ0XAFSXbTeCrLkGj9FUTRa7jrBI9dh/5fURLQygeJs+aOnY9UrF5nQJG1/+ZLvBvtqqYmytT/2KtwiEAZMsGuRe80EPkJsHwOETtwvRcNvnkQRX1j9urParlyqpzd68oV0j5y94fMzNLQ/U7vV3Lm0QusjHoiKe8l0hT8XmjFrKGk8vGaUQZgFWeAvIYTkW1/ID0SLNxTTViTnQjE3eJPXt1egahKxXiHcgyvlrVqVZxUna8gYgKXrYJ1hBqmC1yCIbzuCLoS21Tlz9JKNqEISZFszS6ZOM0LgAjPhMt2I7zCtjIkQAJh7Psgbr8Cs3ulTOTibFmn6mw1jmy74w+vXV9ABu62k4ln+qPBuKo9dxleVGz8Tx24FRxouNi8GMpRuOQ6LrNGkGZAyKfdSU0CJnTMgn/0YgO66yi4=
-  app: git diff
+  app: desolate-refuge-47177
   on:
     repo: adpoyao/node-shopping-list-integration-tests
